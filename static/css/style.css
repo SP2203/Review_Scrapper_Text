@@ -1,6 +1,6 @@
-body {
+/*body {
   background-color: #91ced4;
-}
+}*/
 body * {
   box-sizing: border-box;
 }
@@ -14,11 +14,11 @@ body * {
   text-transform: uppercase;
 }
 
-img {
+/*img {
   border-radius: 50%;
   height: 60px;
   width: 60px;
-}
+}*/
 
 .table-users {
   border: 1px solid #327a81;
@@ -27,7 +27,7 @@ img {
   max-width: calc(100% - 2em);
   margin: 1em auto;
   overflow: hidden;
-  width: 800px;
+  width: 1200px;
 }
 
 table {
@@ -114,13 +114,13 @@ table tr:nth-child(2n+1) {
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
   }
 
-  img {
+/*  img {
     border: 3px solid;
     border-color: #daeff1;
     height: 100px;
     margin: 0.5rem 0;
     width: 100px;
-  }
+  }*/
 
   td:first-child {
     background-color: #c8e7ea;

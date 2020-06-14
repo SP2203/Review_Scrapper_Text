@@ -10,17 +10,28 @@
 
       <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style type="text/css">
+	body{
+		    background-image: url('/static/images/texture.png');
+	}
+</style>
 
 
 </head>
 
 <body>
+    <form action="/download" method="POST">
+          <div style="margin-left:  1350px;marker-top:30px">
+          <input type="Submit" value="Download reviews"id="download_reviews" size="15">
+          </div>
+    </form>
 
   <div class="table-users">
    <div class="header">Reviews</div>
 
    <table cellspacing="0">
       <tr>
+      	 <th>Index</th>
          <th>Product</th>
          <th>Name</th>
          <th>Rating</th>
@@ -29,6 +40,7 @@
       </tr>
          {% for review in reviews %}
       <tr>
+      	 <td>{{review['Index']}}</td>
           <td>{{review['Product']}}</td>
          <td>{{review['Name']}}</td>
          <td>{{review['Rating']}}</td>

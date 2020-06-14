@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08c45903-0587-4eee-8566-1827cd45bf4d" name="Default Changelist" comment="" />
+    <list default="true" id="08c45903-0587-4eee-8566-1827cd45bf4d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cezREpQmLHLTRDngZvuDcGPjY8" />
   <component name="ProjectViewState">
@@ -18,17 +23,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="firstFlask" />
+      <module name="Review_Scrapper_Text" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\patil\.conda\envs\Reviewer_Text\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
@@ -40,9 +45,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="app_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Review_Scrapper_Text" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.app_main" />
       </list>
     </recent_temporary>
   </component>
@@ -60,29 +87,60 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="484" y="28" key="#app" timestamp="1591504887375">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="484" y="28" key="#app/0.0.1536.864@0.0.1536.864" timestamp="1591504887375" />
     <state x="645" y="133" key="FileChooserDialogImpl" timestamp="1590905413646">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="645" y="133" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1590905413646" />
-    <state width="1515" height="223" key="GridCell.Tab.0.bottom" timestamp="1590907172967">
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom" timestamp="1592067992112">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1590907172967" />
-    <state width="1515" height="223" key="GridCell.Tab.0.center" timestamp="1590907172967">
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592067992112" />
+    <state width="1515" height="223" key="GridCell.Tab.0.center" timestamp="1592067992112">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1590907172967" />
-    <state width="1515" height="223" key="GridCell.Tab.0.left" timestamp="1590907172967">
+    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1592067992112" />
+    <state width="1515" height="223" key="GridCell.Tab.0.left" timestamp="1592067992112">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1590907172967" />
-    <state width="1515" height="223" key="GridCell.Tab.0.right" timestamp="1590907172967">
+    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1592067992112" />
+    <state width="1515" height="223" key="GridCell.Tab.0.right" timestamp="1592067992112">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1590907172967" />
-    <state x="6" y="42" key="SettingsEditor" timestamp="1590905819782">
+    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1592067992112" />
+    <state width="1515" height="277" key="GridCell.Tab.1.bottom" timestamp="1591534194976">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="6" y="42" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1590905819782" />
+    <state width="1515" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1591534194976" />
+    <state width="1515" height="277" key="GridCell.Tab.1.center" timestamp="1591534194976">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1591534194976" />
+    <state width="1515" height="277" key="GridCell.Tab.1.left" timestamp="1591534194976">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1591534194976" />
+    <state width="1515" height="277" key="GridCell.Tab.1.right" timestamp="1591534194976">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1591534194976" />
+    <state x="6" y="42" key="SettingsEditor" timestamp="1590908949453">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="6" y="42" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1590908949453" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>157</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
